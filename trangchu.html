@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelIz</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <header class="">
+            <nav class="nav">
+                <a href="#" class="nav__logo">
+                    <img src="./assets/img/logo in top.png" alt="" class="nav__img">
+                </a>
+                <div class="nav__list">
+                    <div class="nav__item active">
+                        <a href="#" class="nav__link">Home</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="#package" class="nav__link">Package</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="#booknow" class="nav__link">Book now</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="#review" class="nav__link">Review</a>
+                    </div>
+                    <div class="nav__notify"id="nav__notify">
+                        <i class="nav__notify-icon  far fa-bell" ></i>
+                        <div class="nav__notify-wrap">
+                            <div class="nav__notify-item">
+                                <a href="" class="nav__notify-link">
+                                    <img src="./assets/img/thong bao .jfif" alt="" class="nav__notify-img">
+                                    <h1>Daisy vừa thích bình luận của bạn</h1>
+                                </a>
+                            </div>
+                            <div class="nav__notify-item">
+                                <a href="" class="nav__notify-link">
+                                    <img src="./assets/img/j4f.jpg" alt="" class="nav__notify-img">
+                                    <h1>Đề xuất: Tour du lịch đi đến Paris đang sale .Truy cập ngay để không bị bỏ lỡ bất kì một cơ hội tuyệt với nào</h1>
+                                </a>
+                            </div>
+                            <div class="nav__notify-item">
+                                <a href="" class="nav__notify-link">
+                                    <img src="./assets/img/Confetti.png" alt="" class="nav__notify-img">
+                                    <h1>Chào mừng bạn đến với Traveliz</h1>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" nav__account">
+                        <img  class="nav__account-img" src="./assets/img/account-women.jfif" alt="">
+                        <div class="nav__account-wrap">
+                            <div class="nav__account-header">
+                                <img src="./assets/img/account-women.jfif" alt="">
+                                <div>
+                                    <h1>Maria Rivera</h1>
+                                    <p>@maria-rivera</p>
+                                </div>
+                            </div>
+                            <div class="nav__account-body">
+                                <div class="nav__account-item">
+                                    <a href="#" class="nav__account-link">
+                                        <img src="./assets/img/Important Mail.png" alt="">
+                                        <h1>Message</h1>
+                                    </a>
+                                </div>
+                                <div class="nav__account-item">
+                                    <a href="#" class="nav__account-link">
+                                        <img src="./assets/img/Love.png" alt="">
+                                        <h1>Love</h1>
+                                    </a>
+                                </div>
+                                <div class="nav__account-item">
+                                    <a href="#" class="nav__account-link">
+                                        <img src="./assets/img/Male User.png" alt="">
+                                        <h1>Account</h1>
+                                    </a>
+                                </div>
+                                <div class="nav__account-item">
+                                    <a href="#" class="nav__account-link">
+                                        <img src="./assets/img/Settings.png" alt="">
+                                        <h1>Setting</h1>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="nav__account-footer">
+                                <a href="./index.html" class="nav__account-link">
+                                    <img src="./assets/img/Shutdown.png" alt="">
+                                    <h1>Log out</h1>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav__slider"></div>
+            </nav>
+            <div class="header container">
+                <div class="header__content">
+                    <h1 class="header__title">
+                        Travel, enjoy
+                        and live a new
+                        and full life
+                    </h1>
+                    <p class="header__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut
+                        venenatis lorem. Nunc sodales
+                        interdum rhoncus.
+                    </p>
+                    <button class="btn header__btn">get started</button>
+                </div>
+                <div class="header__wrap">
+                    <img src="./assets/img/Traveller 1.png" alt="" class="header__img">
+                    <div class="header__blur"></div>
+                    <div class="header__circle"></div>
+                    <div class="header__circle--purple"></div>
+                    <div class="header__circle--yellow"></div>
+                    <img src="./assets/img/Vector 1.png" alt="" class="header__decore-left">
+                    <img src="./assets/img/Vector 2.png" alt="" class="header__decore-right">
+                </div>
+            </div>
+            <div class="header__search">
+                <h1>What are you
+                    <span>looking for ?</span>
+                </h1>
+                <div class="header__search-wrap">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search for...">
+                </div>
+            </div>
+            <div class="header__list">
+                <div class="header__item">
+                    <a href="#" class="header__link">
+                        <img src="./assets/img/Reddit.png" alt="">
+                        <h2>Relax</h2>
+                    </a>
+                </div>
+                <div class="header__item">
+                    <a href="#" class="header__link">
+                        <img src="./assets/img/MySpace.png" alt="">
+                        <h2>Cultural</h2>
+                    </a>
+                </div>
+                <div class="header__item">
+                    <a href="#" class="header__link">
+                        <img src="./assets/img/Marco Polo.png" alt="">
+                        <h2>Sport</h2>
+                    </a>
+                </div>
+                <div class="header__item">
+                    <a href="#" class="header__link">
+                        <img src="./assets/img/Instagram Old.png" alt="">
+                        <h2>History</h2>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section class="package container" id="package">
+            <div class="heading">
+                <span>p</span>
+                <span>a</span>
+                <span>c</span>
+                <span>k</span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>s</span>
+            </div>
+            <div class="package__list">
+                <div class="package__item">
+                    <a href="#" class="package__link">
+                        <img src="https://images.unsplash.com/photo-1549569344-5fab90429fd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="">
+                    </a>
+                    <div class="package__content">
+                        <div class="package__title">
+                            <p>Germany</p>
+                            <p>$54.2</p>
+                        </div>
+                        <div class="package__description">
+                            <div>
+                                <i class="fas fa-location-arrow"></i>
+                                <p>10 Days Trip</p>
+                            </div>
+                            <button class="btn btn--border btn--red">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package__item">
+                    <a href="#" class="package__link">
+                        <img src="./assets/img/Danmark.png" alt="">
+                    </a>
+                    <div class="package__content">
+                        <div class="package__title">
+                            <p>Danmark</p>
+                            <p>$99.9</p>
+                        </div>
+                        <div class="package__description">
+                            <div>
+                                <i class="fas fa-location-arrow"></i>
+                                <p>10 Days Trip</p>
+                            </div>
+                            <button class="btn btn--border btn--orange">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package__item">
+                    <a href="#" class="package__link">
+                        <img src="./assets/img/france.png" alt="">
+                    </a>
+                    <div class="package__content">
+                        <div class="package__title">
+                            <p>France</p>
+                            <p>$80</p>
+                        </div>
+                        <div class="package__description">
+                            <div>
+                                <i class="fas fa-location-arrow"></i>
+                                <p>8 Days Trip</p>
+                            </div>
+                            <button class="btn btn--border btn--yellow">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package__item">
+                    <a href="#" class="package__link">
+                        <img src="./assets/img/rome.png" alt="">
+                    </a>
+                    <div class="package__content">
+                        <div class="package__title">
+                            <p>Rome , Italy</p>
+                            <p>$160</p>
+                        </div>
+                        <div class="package__description">
+                            <div>
+                                <i class="fas fa-location-arrow"></i>
+                                <p>10 Days Trip</p>
+                            </div>
+                            <button class="btn btn--border btn--blue">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package__item">
+                    <a href="#" class="package__link">
+                        <img src="./assets/img/london.png" alt="">
+                    </a>
+                    <div class="package__content">
+                        <div class="package__title">
+                            <p>London, England</p>
+                            <p>$120</p>
+                        </div>
+                        <div class="package__description">
+                            <div>
+                                <i class="fas fa-location-arrow"></i>
+                                <p>10 Days Trip</p>
+                            </div>
+                            <button class="btn btn--border btn--green">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package__item">
+                    <a href="#" class="package__link">
+                        <img src="./assets/img/finland.png" alt="">
+                    </a>
+                    <div class="package__content">
+                        <div class="package__title">
+                            <p>Finland</p>
+                            <p>$120</p>
+                        </div>
+                        <div class="package__description">
+                            <div>
+                                <i class="fas fa-location-arrow"></i>
+                                <p>6 Days Trip</p>
+                            </div>
+                            <button class="btn btn--border btn--purple">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="book container" id="booknow">
+            <div class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </div>
+            <div class="book__wrap">
+                <img src="./assets/img/book-img 1.png" alt="" class="book__wrap-img">
+                <div class="book__content">
+                    <div class="book__item">
+                        <h1>Where to</h1>
+                        <input type="text" placeholder="Name of place">
+                    </div>
+                    <div class="book__item">
+                        <h1>How many</h1>
+                        <input type="text" placeholder="Number of guest">
+                    </div>
+                    <div class="book__item">
+                        <h1>Arrivals</h1>
+                        <input type="date" placeholder="DD/MM/YYYY">
+                    </div>
+                    <div class="book__item">
+                        <h1>Leaving</h1>
+                        <input type="date" placeholder="DD/MM/YYYY">
+                    </div>
+                    <button class="btn btn__book">Submit</button>
+                </div>
+            </div>
+        </section>
+        <section class="review container" id="review">
+            <div class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+            </div>
+            <div class="review__wrap">
+                <div class="review__form">
+                    <h1>Your <span>comment</span></h1>
+                    <input type="text" placeholder="Fullname">
+                    <input type="text" placeholder="Phone">
+                    <textarea name="" id="" spellcheck="false" placeholder="Comment"></textarea>
+                    <button class="btn review__btn">send us now</button>
+                    <div class="review__blur"></div>
+                    <div class="review__circle--orange"></div>
+                    <div class="review__circle--yellow"></div>
+                    <div class="review__circle--red"></div>
+
+                </div>
+                <div class="swiper mySwiper review__account">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide review__item">
+                            <img src="./assets/img/commenter.png" alt="">
+                            <h1>Tran Thi Cam Thu</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                                error cupiditate aut
+                                quidem nihil, praesentium ut ducimus explicabo, minima beatae
+                                nesciunt illo.</p>
+                        </div>
+                        <div class="swiper-slide review__item">
+                            <img src="https://images.unsplash.com/photo-1638120663571-4bb86301f128?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                alt="">
+                            <h1>Nguyễn Minh </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                                error cupiditate aut
+                                quidem nihil, praesentium ut ducimus explicabo, minima beatae
+                                nesciunt illo.</p>
+                        </div>
+                        <div class="swiper-slide review__item">
+                            <img src="https://images.unsplash.com/photo-1637690980835-2e8958d666db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80"
+                                alt="">
+                            <h1>Lê Thị Hoa</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                                error cupiditate aut
+                                quidem nihil, praesentium ut ducimus explicabo, minima beatae
+                                nesciunt illo.</p>
+                        </div>
+                        <div class="swiper-slide review__item">
+                            <img src="https://images.unsplash.com/photo-1637364696052-d75a6cb8f766?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                alt="">
+                            <h1>Trần Văn A</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                                error cupiditate aut
+                                quidem nihil, praesentium ut ducimus explicabo, minima beatae
+                                nesciunt illo.</p>
+                        </div>
+                        <div class="swiper-slide review__item">
+                            <img src="https://images.unsplash.com/photo-1614204424926-196a80bf0be8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                alt="">
+                            <h1>Bùi Thị Ly</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                                error cupiditate aut
+                                quidem nihil, praesentium ut ducimus explicabo, minima beatae
+                                nesciunt illo.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="brand-container">
+            <div class="swiper-container brand-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/img/2 1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/3 1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/4 1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/5 1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/6 1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/happiho.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class=" footer">
+            <div class="container">
+                <img src="./assets/img/Group 10.png" alt="" class="footer__bonus">
+                <div class="footer__list">
+                    <div class="footer__item">
+                        <a href="#" class="footer__logo">
+                            <img src="./assets/img/logo in bottom.png" alt="">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                            consequuntur rem vel
+                            facilis fugit quia dolores corrupti magni, est eligendi voluptas
+                            suscipit ab!
+                            Consequuntur quam nam dicta iure nihil ea.</p>
+                    </div>
+                    <div class="footer__item">
+                        <h1 class="footer__title">our agency</h1>
+                        <ul>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#package">Packages</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#booknow">Book now</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#review">Review</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h1 class="footer__title">contact</h1>
+                        <ul>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#">Help/FQA</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#">Press</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#">A</a>ffilate
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h1 class="footer__title">discover our app</h1>
+                        <div class="footer__socials">
+                            <a href="#" class="footer__link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="footer__link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="footer__link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="footer__contact">
+                            <a href="#" class="footer__contact-link">
+                                <img src="./assets/img/Google Play.png" alt="">
+                            </a>
+                            <a href="#" class="footer__contact-link">
+                                <img src="./assets/img/Play Store.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <p class="copy">Copy right by Xuan Tuoi</p>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+    <script src="./assets/js/trangchu.js"></script>
+</body>
+
+</html>

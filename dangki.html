@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    
+    <div class="signup">
+        <a href="index.html" class="signup__logo-link ">
+            <img src="./assets/img/logo in top.png" alt="" class="signup__logo-img">
+        </a>
+
+
+        <section class="signup__wrap container">
+            <form action=""  method="POST" class="signup__form" id="signup__form">
+                <div class="form-group ">
+                    <label for="" class="form-label">Tên đầy đủ</label>
+                    <input class="form-control" type="text" id="fullname" placeholder="VD: Xuân Tươi">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                     <span class="form-message">Error message</span>
+                </div>
+                <div class="form-group ">
+                    <label for="" class="form-label">Email</label>
+                    <input class="form-control" type="text" id="email" placeholder="VD:xuantuoi@gmail.com">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                     <span class="form-message">Error message</span>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu (Tối thiểu 8 kí tự)</label>
+                    <input class="form-control" id="password" name="password" type="password" placeholder="Nhập mật khẩu"
+                    >
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span class="form-message">Error message</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                    <input class="form-control" id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu"
+                        type="password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span class="form-message">Error message</span>
+                </div>
+                <!-- <button class="form-submit">Đăng ký</button> -->
+                    <span class="signup__text">
+                        Bạn đã có tài khoản Traveliz?
+                    </span>
+                    <a href="./login/dangnhap.html" class="signup__link">Đăng nhập</a>
+                <div class="signup__check">
+                    <input type="checkbox">
+                    <h1>Tôi đồng ý với Bảo mật và hoạt động Điều khoản của Traveliz.</h1> 
+                </div>
+                <button id="signup__btn" class="btn signup__btn">Đăng kí</button>
+            </form>
+            
+            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_ttz7k6cj.json"
+                background="transparent" speed="1" style="width: 560px; height: 560px;" loop autoplay>
+            </lottie-player>
+        </section>
+
+        <footer class=" footer">
+            <div class="container">
+                <img src="./assets/img/Group 10.png" alt="" class="footer__bonus">
+                <div class="footer__list">
+                    <div class="footer__item">
+                        <a href="#" class="footer__logo">
+                            <img src="../assets/img/logo in bottom.png" alt="">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur rem
+                            vel
+                            facilis fugit quia dolores corrupti magni, est eligendi voluptas suscipit ab!
+                            Consequuntur quam nam dicta iure nihil ea.</p>
+                    </div>
+                    <div class="footer__item">
+                        <h1 class="footer__title">our agency</h1>
+                        <ul>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#package">Packages</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#booknow">Book now</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#review">Review</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h1 class="footer__title">contact</h1>
+                        <ul>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#">Help/FQA</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#">Press</a>
+                            </li>
+                            <li>
+                                <i class="ti-angle-right"></i>
+                                <a href="#">A</a>ffilate
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h1 class="footer__title">discover our app</h1>
+                        <div class="footer__socials">
+                            <a href="#" class="footer__link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="footer__link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="footer__link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="footer__contact">
+                            <a href="#" class="footer__contact-link">
+                                <img src="./assets/img/Google Play.png" alt="">
+                            </a>
+                            <a href="#" class="footer__contact-link">
+                                <img src="./assets/img/Play Store.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <p class="copy">Copy right by Xuan Tuoi</p>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script src="../main.js"></script> -->
+    <script src="./assets/js/dangki.js"></script>
+</body>
+</html>
