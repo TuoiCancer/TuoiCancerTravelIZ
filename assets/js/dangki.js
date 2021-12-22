@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
   checkInputs();
   console.log(count);
   if (er1 === er2 && er2 === er3 && er3 === er4 && er4 === 0) {
-    window.location.href = "../trangchu.html";
+    window.location.href = "./trangchu.html";
   }
 });
 
