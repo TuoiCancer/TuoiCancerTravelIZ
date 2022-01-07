@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.menu{
+    width: 100%;
+    height: 900px;
+    /* background-color: brown; */
+}
+.logo{
+    position: absolute;
+    left: 6.19%;
+    right: 80.45%;
+    top: 4.46%;
+}
+.home{
+    position: absolute;
+    width: 60px;
+    height: 23px;
+    left: 500px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.pack{
+    position: absolute;
+    width: 88px;
+    height: 24px;
+    left: 600px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.book{
+    position: absolute;
+    width: 109px;
+    height: 38px;
+    left: 714px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.review{
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    left: 850px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.login{
+    position: absolute;
+    width: 53px;
+    height: 23px;
+    left: 960px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.contact{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 1040px;
+    top: 24px;
+    background: #FF5E61;
+    border-radius: 28px;
+}
+.contactus{
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    left: 23px;
+    top: 18px;
+    font-size: 14px;
+    color:white;
+}
+.light{
+    position: absolute;
+    width: 85px;
+    height: 41px;
+    left: 1200px;
+    top: 29px;
+    border-radius: 25px;
+}
+.taikhoan{
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    left: 85.11px;
+    top: 182.82px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+
+    color: #444B59;
+
+}
+.boxx1{
+    position: absolute;
+    width: 542.35px;
+    height: 72px;
+    left: 85.11px;
+    top: 244.82px;
+
+    background: #B1C6FE;
+    border-radius: 80px;
+}
+.gmail{
+    position: absolute;
+    width: 282px;
+    height: 33px;
+    left: 32px;
+    top: 19.5px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+.matkhau{
+    position: absolute;
+    width: 250px;
+    height: 38px;
+    left: 85.11px;
+    top: 340.82px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+
+    color: #444B59;
+
+}
+.boxx2{
+    position: absolute;
+    width: 542.35px;
+    height: 72px;
+    left: 85.11px;
+    top: 402.82px;
+
+    background: #B1C6FE;
+    border-radius: 80px;
+}
+.sao{
+    position: absolute;
+    width: 132px;
+    height: 12px;
+    left: 32px;
+    top: 30px;
+}
+.eye{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 478.35px;
+    top: 20px;
+}
+.nhaplai{
+    position: absolute;
+    width: 300px;
+    height: 38px;
+    left: 85.11px;
+    top: 517px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+
+    color: #444B59;
+
+}
+.boxx3{
+    position: absolute;
+    width: 542.35px;
+    height: 72px;
+    left: 85.11px;
+    top: 598px;
+
+    background: #B1C6FE;
+    border-radius: 80px;
+}
+.doi1{
+    position: absolute;
+    width: 379px;
+    height: 85px;
+    left: 530.5px;
+    top: 766px;
+
+    background: #FF5E61;
+    border-radius: 31px;
+}
+.doi2{
+    position: absolute;
+    width: 208px;
+    height: 38px;
+    left: 85.5px;
+    top: 23.5px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+.anh{
+    position: absolute;
+    width: 680px;
+    height: 493px;
+    left: 715px;
+    top: 177px;
+}
+.background{
+    opacity: 0.3;
+}
+.thongbao{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    left: 350px;
+    top: 200px;
+    z-index: 1;
+    background-color:whitesmoke;
+    border: 1px solid #FF5E61;
+    box-sizing: border-box;
+    border-radius: 49px;
+}
+.dongchu{
+    position: absolute;
+    width: 500px;
+    height: 49px;
+    left: 120px;
+    top: 40px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+.tich{
+    position: absolute;
+    width: 176px;
+    height: 176px;
+    left: 270px;
+    top: 90px;
+}
+.boxw{
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    left: 145px;
+    top: 280px;
+
+   background: #FF5E61;
+   border-radius: 31px;
+}
+.quaylai{
+    position: absolute;
+    width: 220px;
+    height: 24px;
+    left: 120px;
+    top: 20px;
+    font-size: 24px;
+    color: white;
+}

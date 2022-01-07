@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.menu{
+    width: 100%;
+    height: 900px;
+    /* background-color: brown; */
+}
+.logo{
+    position: absolute;
+    left: 6.19%;
+    right: 80.45%;
+    top: 4.46%;
+}
+.home{
+    position: absolute;
+    width: 60px;
+    height: 23px;
+    left: 500px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.pack{
+    position: absolute;
+    width: 88px;
+    height: 24px;
+    left: 600px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.book{
+    position: absolute;
+    width: 109px;
+    height: 38px;
+    left: 714px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.review{
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    left: 850px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.login{
+    position: absolute;
+    width: 53px;
+    height: 23px;
+    left: 960px;
+    top: 38px;
+    font-size: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.contact{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 1040px;
+    top: 24px;
+    background: #FF5E61;
+    border-radius: 28px;
+}
+.contactus{
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    left: 23px;
+    top: 18px;
+    font-size: 14px;
+    color:white;
+}
+.light{
+    position: absolute;
+    width: 85px;
+    height: 41px;
+    left: 1200px;
+    top: 29px;
+    border-radius: 25px;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    height: 67px;
+    left: 0px;
+    top: 117px;
+    background-color: #FA7476;
+}
+.hot{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 172px;
+    top: 22px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.travel{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 355px;
+    top: 22px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.travelblog{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 605px;
+    top: 22px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.travlenew{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 830px;
+    top: 22px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.transprot{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 1050px;
+    top: 22px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.message{
+    position: absolute;
+    width: 231px;
+    height: 40px;
+    left: 18px;
+    top: 197px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    color: #000000;
+}
+.thank{
+    position: absolute;
+    width: 550px;
+    height: 85px;
+    left: 421px;
+    top: 251px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    color: #000000;
+}
+.we{
+    position: absolute;
+    width: 550px;
+    height: 85px;
+    left: 421px;
+    top: 290px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 24px;
+    line-height: 40px;
+
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    color: #000000;
+}
+.if{
+    position: absolute;
+    width: 1184px;
+    height: 40px;
+    left: 105px;
+    top: 336px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    color: #000000;
+}
+.group{
+    position: absolute;
+    width: 100%;
+    height: 79.86px;
+    left: 0px;
+    top: 421px;
+}
+.com{
+    position: absolute;
+    width: 100%;
+    height: 449px;
+    left: 0px;
+    top: 500px;
+
+    background: #FA7476;
+}
+.cont{
+    position: absolute;
+    width: 182px;
+    height: 40px;
+    left: 51px;
+    top: 524px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    color: #FFFFFF;
+}
+.diachi{
+    position: absolute;
+    width: 697px;
+    height: 40px;
+    left: 51px;
+    top: 591px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+.sodth{
+    position: absolute;
+    width: 252px;
+    height: 40px;
+    left: 51px;
+    top: 658px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+
+    color: #FFFFFF;
+}
+.email{
+    position: absolute;
+    width: 336px;
+    height: 40px;
+    left: 51px;
+    top: 725px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+
+    letter-spacing: 0.25px;
+
+    color: #FFFFFF;
+}
+.avai{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 51px;
+    top: 792px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+
+    color: #FFFFFF;
+}
+.connect{
+    position: absolute;
+    width: 400px;
+    height: 38.14px;
+    left: 527px;
+    top: 793px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.lorem{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    left: 980px;
+    top: 562px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.tra{
+    position: absolute;
+    top: 64.55%;
+    bottom: 29.69%;
+    left: 620px;
+    top: 725px;
+}
+.visa{
+    position: absolute;
+    width: 79px;
+    height: 54px;
+    left: 51px;
+    top: 855px;
+}
+.master{
+    position: absolute;
+    width: 86px;
+    height: 54px;
+    left: 143px;
+    top: 855px;
+}
+.jcb{
+    position: absolute;
+    width: 88px;
+    height: 54px;
+    left: 242px;
+    top: 855px;
+}
+.insta{
+    position: absolute;
+    width: 61px;
+    height: 65px;
+    left: 533px;
+    top: 852px;
+}
+.youtobe{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 700px;
+    top: 851px;
+}
+.khung{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 618px;
+    top: 855px;
+}
+.khung1{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 787px;
+    top: 855px;
+}

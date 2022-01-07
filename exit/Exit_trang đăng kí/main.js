@@ -4,7 +4,6 @@ const $$ = document.querySelectorAll.bind(document);
 const navItems = $$(".nav__item");
 const navSlider = $(".nav__slider");
 const navNotify = document.getElementById("nav__notify");
-const searchItem = $("#search__item");
 
 navItems.forEach((item) => {
   item.onclick = () => {
@@ -18,10 +17,6 @@ window.addEventListener("scroll", () => {
   if (x > 80) navSlider.classList.add("active");
   else navSlider.classList.remove("active");
 });
-
-searchItem.onclick = (e) => {
-  window.location.href = "./trang noi dung (book now )/index.html";
-};
 
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,

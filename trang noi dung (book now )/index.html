@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveliz</title>
+   
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header__wrap">
+        <nav class="nav nav--content" >
+            <a href="#" class="nav__logo">
+                <img src="./assets/img/logo in top.png" alt="" class="nav__img">
+            </a>
+            <div class="nav__list">
+                <div class="nav__item ">
+                    <a href="../index.html" class="nav__link">Home</a>
+                </div>
+                <div class="nav__item">
+                    <a href="#package" class="nav__link">Package</a>
+                </div>
+                <div class="nav__item">
+                    <a href="#booknow" class="nav__link">Book now</a>
+                </div>
+                <div class="nav__item active">
+                    <a href="#review" class="nav__link">Review</a>
+                </div>
+                <div class="nav__item">
+                    <a href="./login/dangnhap.html" class="nav__link">Login</a>
+                </div>
+                <button class="btn btn--primary">Contact us</button>
+            </div>
+            <div class="nav__slider"></div>
+        </nav>
+    </div>
+    <!-- content -->
+    <div id="content">
+        <div class="search-section">
+            <div class="search-informations">
+                <div class="places">
+                    <input type="text" placeholder="Search your places">
+                    <a href="#"><i><ion-icon name="close-outline"></ion-icon></i></a>
+                </div>
+                <div class="dates">
+                    <input type="text" class="start-date" placeholder="Start date">
+                    <a href="#"><i id="calendar-1"><ion-icon name="calendar-outline"></ion-icon></i></a>
+                    <input type="text" class="end-date" placeholder="End date">
+                    <a href="#"><i id="calendar-2"><ion-icon name="calendar-outline"></ion-icon></i></a>
+                </div>
+                <div class="human-information">
+                    <a href="#"><i><ion-icon name="people-outline"></ion-icon></i></a>
+                    <input type="text" placeholder="Adults and childrens">
+                </div>
+                <a href="#"><button>Find</button></a>
+            </div>
+
+            <div class="search-hotels">
+                <input type="text" placeholder="Hotel search">
+                <i><ion-icon name="search-outline"></ion-icon></i>
+                <hr class="line-1" />
+                <form action="#">
+                    <div class="star-section">
+                        <p>Star</p>
+                        <div class="star-1 checkbox-star">
+                            <input type="checkbox" id=""> 
+                            <i><ion-icon name="star"></ion-icon></i>
+                        </div>
+                        <div class="star-2 checkbox-star">
+                            <input type="checkbox" id="">
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+                        </div>
+                        <div class="star-3 checkbox-star">
+                            <input type="checkbox">
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+                        </div>
+                        <div class="star-4 checkbox-star">
+                            <input type="checkbox">
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+
+                        </div>  
+                        <div class="star-5 checkbox-star">
+                            <input type="checkbox">
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+                            <i><ion-icon name="star"></ion-icon></i>
+
+                        </div>
+                    </div>
+                </form>
+                <hr class="line-2" />
+                <form action="">
+                    <div class="area-section">
+                        <p>Area</p>
+                        <div class="checkbox-area">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Hoan Kiem</label>
+                        </div>
+                        <div class="checkbox-area">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Cau Giay</label>
+                        </div>
+                        <div class="checkbox-area">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Ba Dinh</label>
+                        </div>
+                        <div class="checkbox-area">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Hai Ba Trung</label>
+                        </div>
+                        <div class="checkbox-area">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Dong Da</label>
+                        </div>
+                        <div class="checkbox-area">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Long Bien</label>
+                        </div>
+                        <div class="watch-more checkbox-area">
+                            <p><i><ion-icon name="caret-down"></ion-icon></i>Watch more</p>                      
+                        </div>
+                    </div>
+                </form>
+                <hr class="line-3" />
+                <form action="">
+                    <div class="accommodation-section">
+                        <p>Accommodation</p>
+                        <div class="checkbox-accommodation">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Homestay</label>
+                        </div>
+                        <div class="checkbox-accommodation">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Apartment</label>
+                        </div>
+                        <div class="checkbox-accommodation">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Villa</label>
+                        </div>
+                        <div class="checkbox-accommodation">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Palace</label>
+                        </div>
+                        <div class="checkbox-accommodation">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Resort</label>
+                        </div>
+                        <div class="checkbox-accommodation">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Hotel</label>
+                        </div>
+                        <div class="watch-more-1 checkbox-accommodation">
+                            <p><i><ion-icon name="caret-down"></ion-icon></i>Watch more</p>                      
+                        </div>
+                    </div>
+                </form>
+                <hr class="line-4" />
+                <form action="">
+                    <div class="services-section">
+                        <p>Services</p>
+                        <div class="checkbox-service">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Pool</label>
+                        </div>
+                        <div class="checkbox-service">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Private beach</label>
+                        </div>
+                        <div class="checkbox-service">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Massage</label>
+                        </div>
+                        <div class="checkbox-service">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Bar</label>
+                        </div>
+                        <div class="checkbox-service">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Gym</label>
+                        </div>
+                        <div class="checkbox-service">
+                            <input type="checkbox" id="Hoan-Kiem">
+                            <label for="Hoan-Kiem">Airport service</label>
+                        </div>
+                        <div class="watch-more-2 checkbox-service">
+                            <p><i><ion-icon name="caret-down"></ion-icon></i>Watch more</p>                      
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- pic 1 -->
+        <div class="content-information">
+            <div class="content-img-1">
+                <img src="./img/movenpick.jpg" alt="movenpick">
+            </div>
+            <div class="information-for-img-1">
+                <p class="hotel-name">Movenpick Hanoi</p>
+                <div class="star-for-each-hotel">
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                </div>
+                <div class="location-details">
+                    <p><i><ion-icon name="location"></ion-icon></i>Hoan Kiem, HaNoi</p>
+                </div>
+                <p class="information-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent </p>
+                <div class="more-detail">
+                    <p><i><ion-icon name="caret-down"></ion-icon></i>More details</p>
+                </div>
+            </div>
+            <div class="score-detail">
+                9.0
+            </div>
+            <div class="buy-button">
+                <a href="#"><button>1,300,000vnd</button></a>
+            </div>
+        </div>
+        <!-- pic 2 -->
+        <div class="content-information content-information-alt">
+            <div class="content-img-1">
+                <img src="./img/daewoo.jpg" alt="movenpick">
+            </div>
+            <div class="information-for-img-1">
+                <p class="hotel-name">Daewoo Hanoi</p>
+                <div class="star-for-each-hotel">
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                </div>
+                <div class="location-details">
+                    <p><i><ion-icon name="location"></ion-icon></i>Cau Giay, Hanoi</p>
+                </div>
+                <p class="information-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent </p>
+                <div class="more-detail">
+                    <p><i><ion-icon name="caret-down"></ion-icon></i>More details</p>
+                </div>
+            </div>
+            <div class="score-detail">
+                9.0
+            </div>
+            <div class="buy-button">
+                <a href="#"><button>1,300,000vnd</button></a>
+            </div>
+        </div>
+        <!-- pic 3 -->
+        <div class="content-information content-information-alt">
+            <div class="content-img-1">
+                <img src="./img/intercontinental.jpg" alt="movenpick">
+            </div>
+            <div class="information-for-img-1">
+                <p class="hotel-name">InterContinental Hanoi </p>
+                <div class="star-for-each-hotel">
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                </div>
+                <div class="location-details">
+                    <p><i><ion-icon name="location"></ion-icon></i>Tay Ho, Hanoi</p>
+                </div>
+                <p class="information-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent </p>
+                <div class="more-detail">
+                    <p><i><ion-icon name="caret-down"></ion-icon></i>More details</p>
+                </div>
+            </div>
+            <div class="score-detail">
+                9.0
+            </div>
+            <div class="buy-button">
+                <a href="#"><button>1,300,000vnd</button></a>
+            </div>
+        </div>
+        <!-- pic 4 -->
+        <div class="content-information content-information-alt">
+            <div class="content-img-1">
+                <img src="./img/lotte hotel .jpg" alt="movenpick">
+            </div>
+            <div class="information-for-img-1">
+                <p class="hotel-name">Lotte Hotel Hanoi</p>
+                <div class="star-for-each-hotel">
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                </div>
+                <div class="location-details">
+                    <p><i><ion-icon name="location"></ion-icon></i>Cau Giay, Hanoi</p>
+                </div>
+                <p class="information-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent </p>
+                <div class="more-detail">
+                    <p><i><ion-icon name="caret-down"></ion-icon></i>More details</p>
+                </div>
+            </div>
+            <div class="score-detail">
+                9.0
+            </div>
+            <div class="buy-button">
+                <a href="#"><button>1,300,000vnd</button></a>
+            </div>
+        </div>
+        <!-- pic 5 -->
+        <div class="content-information content-information-alt">
+            <div class="content-img-1">
+                <img src="./img/sofitel-legend-metropole-hanoi-5.jpg" alt="movenpick">
+            </div>
+            <div class="information-for-img-1">
+                <p class="hotel-name">Sofiel Legend Metropole</p>
+                <div class="star-for-each-hotel">
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                </div>
+                <div class="location-details">
+                    <p><i><ion-icon name="location"></ion-icon></i>Hoan Kiem, Hanoi<p>
+                </div>
+                <p class="information-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent </p>
+                <div class="more-detail">
+                    <p><i><ion-icon name="caret-down"></ion-icon></i>More details</p>
+                </div>
+            </div>
+            <div class="score-detail">
+                9.0
+            </div>
+            <div class="buy-button">
+                <a href="#"><button>1,300,000vnd</button></a>
+            </div>
+        </div>
+        <!-- pic 6 -->
+        <div class="content-information content-information-alt">
+            <div class="content-img-1">
+                <img src="./img/tre house.jpg" alt="tre-house">
+            </div>
+            <div class="information-for-img-1">
+                <p class="hotel-name">Tre House</p>
+                <div class="star-for-each-hotel">
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                    <i><ion-icon name="star"></ion-icon></i>
+                </div>
+                <div class="location-details">
+                    <p><i><ion-icon name="location"></ion-icon></i>Hoan Kiem, HaNoi<p>
+                </div>
+                <p class="information-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent </p>
+                <div class="more-detail">
+                    <p><i><ion-icon name="caret-down"></ion-icon></i>More details</p>
+                </div>
+            </div>
+            <div class="score-detail">
+                9.0
+            </div>
+            <div class="buy-button">
+                <a href="#"><button>1,300,000vnd</button></a>
+            </div>
+        </div>
+        <div class="more-button">
+        <a href="#"><button>More</button></a>
+        </div>
+    </div>
+    <footer class=" footer">
+        <div class="container">
+            <img src="./assets/img/Group 10.png" alt="" class="footer__bonus">
+            <div class="footer__list">
+                <div class="footer__item">
+                    <a href="#" class="footer__logo">
+                        <img src="./assets/img/logo in bottom.png" alt="">
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur rem vel
+                        facilis fugit quia dolores corrupti magni, est eligendi voluptas suscipit ab!
+                        Consequuntur quam nam dicta iure nihil ea.</p>
+                </div>
+                <div class="footer__item">
+                    <h1 class="footer__title">our agency</h1>
+                    <ul>
+                        <li>
+                            <i class="ti-angle-right"></i>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <i class="ti-angle-right"></i>
+                            <a href="#package">Packages</a>
+                        </li>
+                        <li>
+                            <i class="ti-angle-right"></i>
+                            <a href="#booknow">Book now</a>
+                        </li>
+                        <li>
+                            <i class="ti-angle-right"></i>
+                            <a href="#review">Review</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h1 class="footer__title">contact</h1>
+                    <ul>
+                        <li>
+                            <i class="ti-angle-right"></i>
+                            <a href="#">Help/FQA</a>
+                        </li>
+                        <li>
+                            <i class="ti-angle-right"></i>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <i class="ti-angle-right"></i>
+                            <a href="#">A</a>ffilate
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h1 class="footer__title">discover our app</h1>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__link">
+                        <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="footer__contact">
+                        <a href="#" class="footer__contact-link">
+                            <img src="./assets/img/Google Play.png" alt="">
+                        </a>
+                        <a href="#" class="footer__contact-link">
+                            <img src="./assets/img/Play Store.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
